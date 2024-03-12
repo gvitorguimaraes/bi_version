@@ -39,6 +39,7 @@ body
 
 #imagemRow
 {
+    display: none;
     margin-top: 20%;
 }
 
@@ -50,7 +51,7 @@ body
 
 #linhaDado
 {
-    margin-top: 15%;
+    margin-top: 50%;
 }
 
 #dado

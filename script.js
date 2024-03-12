@@ -10,12 +10,20 @@ function tornarVisivel()
 {
     var load = document.getElementById("load");
     load.style.display = "block";
+    load.style.marginTop = "40%"
 
     var imagens = document.getElementById("imagem");
     imagens.style.display = "none";
+    var imagemRow = document.getElementById("imagemRow");
+    imagemRow.style.marginTop = "40%";
 
     var dado = document.getElementById("dado")
     dado.style.display = "none";
+    var dadoLinha = document.getElementById("linhaDado")
+    dadoLinha.style.marginTop = "15%";
+
+    var superior = document.getElementById("superior");
+    superior.style.display = "none";
 }
 
 function tornarInvisivel()
@@ -24,6 +32,8 @@ function tornarInvisivel()
     load.style.display = "none";
 
     var imagens = document.getElementById("imagem");
+    imagens.style.display = "block";
+    var imagens = document.getElementById("imagemRow");
     imagens.style.display = "block";
 
     var dado = document.getElementById("dado")
